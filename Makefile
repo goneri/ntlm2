@@ -5,7 +5,7 @@
 ## $Id: Makefile,v 1.3.4.1 2003/02/25 11:25:42 casz Exp $
 
 #   the used tools
-APXS=apxs
+APXS=apxs2
 APACHECTL=apachectl
 
 #   the default target
