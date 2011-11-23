@@ -22,6 +22,7 @@
 
 #include "smblib-priv.h"
 #include <malloc.h>
+#include <stdlib.h>
 
 #include "rfcnb.h"
 

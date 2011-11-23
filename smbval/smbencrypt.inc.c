@@ -19,7 +19,8 @@
 #include <arpa/inet.h>
 #include <dirent.h>
 #include <string.h>
-#include <sys/vfs.h>
+#include <sys/param.h>
+#include <sys/mount.h>
 #include <netinet/in.h>
 
 #include "smblib-priv.h"

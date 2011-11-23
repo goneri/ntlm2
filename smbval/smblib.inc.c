@@ -21,9 +21,11 @@
  * 675 Mass Ave, Cambridge, MA 02139, USA. */
 #include <stdio.h>
 #include <malloc.h>
+#include <stdlib.h>
 
-static int SMBlib_errno;
-static int SMBlib_SMB_Error;
+
+int SMBlib_errno;
+int SMBlib_SMB_Error;
 #define SMBLIB_ERRNO
 #define uchar unsigned char
 #include "smblib-priv.h"
@@ -33,7 +35,7 @@ static int SMBlib_SMB_Error;
 
 #include <signal.h>
 
-static SMB_State_Types SMBlib_State;
+SMB_State_Types SMBlib_State;
 
 /* Initialize the SMBlib package     */
 static int 

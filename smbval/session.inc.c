@@ -22,6 +22,7 @@
  * 675 Mass Ave, Cambridge, MA 02139, USA. */
 
 #include <malloc.h>
+#include <stdlib.h>
 #include <string.h>
 
 static int RFCNB_errno = 0;
