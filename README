@@ -3,6 +3,21 @@ Description
 This is a fork of ntlm2 http://www.jamiekerwick.co.uk/modntlm/ntlm2.tar.gz
 It adds support for Apache 2.2.
 
+Install
+-----
+You will need the apxs2 command. If you system provides apxs, please edit the
+Makefile.
+
+On Debian, you will need apache2-threaded-dev or apache2-prefork-dev
+
+Once the dependencies are installed, the build is trivial, just type:
+
+.Build
+-----------------------------------------------------
+make
+make install
+-----------------------------------------------------
+
 License
 -------
 It is available free of charges under the BSD License. 
