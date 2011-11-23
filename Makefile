@@ -21,7 +21,7 @@ install: all
 
 #   cleanup
 clean:
-	rm -f `find . -name \*.o -o -name \*.so -o -name \*~ -o -name \*.slo -o -name \*.lo -o -name \*.la`
+	rm -f `find . -name \*.o -o -name \*.so -o -name \*~ -o -name \*.slo -o -name \*.lo -o -name \*.la -name \*.lai`
 
 #   simple test
 test: reload
