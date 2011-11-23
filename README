@@ -1,0 +1,8 @@
+Description
+------------
+This is a fork of ntlm2 http://www.jamiekerwick.co.uk/modntlm/ntlm2.tar.gz
+It adds support for Apache 2.2.
+
+License
+-------
+It is available free of charges under the BSD License. 
