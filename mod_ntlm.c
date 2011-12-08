@@ -671,7 +671,7 @@ static apr_table_t *groups_for_user(apr_pool_t *p, char *user, char *grpfile)
         return NULL;
     }
 
-    apr_pool_sub_make(&sp,p,NULL);
+    apr_pool_create_ex(&sp,p,NULL,NULL);
 
     while (!(ap_cfg_getline(l, MAX_STRING_LEN, f))) {
         if ((l[0] == '#') || (!l[0]))
